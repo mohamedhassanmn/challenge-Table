@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    <style>
+        body{
+            height: 100vh;
+            margin:10% 30%;
+            width:50vw;
+        }
+        body>div{
+            display:grid;
+            grid-template-columns: 100px 150px 100px 100px 100px;;
+        }
+        div>div:not(:nth-child(60)):not(:nth-child(57)):not(:nth-child(56)){
+            border:1px solid brown;
+            padding:10px;
+        }
+        div>div:nth-child(5n+4):not(:nth-child(4)):after{content:"km2"}
+
+        div >div:nth-child(1){background-color: brown;color:white}
+       div >div:nth-child(2){background-color: brown;color:white}
+       div >div:nth-child(3){background-color: brown;color:white}
+       div >div:nth-child(4){background-color: brown;color:white}
+       div >div:nth-child(5){background-color: brown;color:white}
+       div >div:nth-child(58){background-color: brown;color:white}
+       div >div:nth-child(59){background-color: brown;color:white}
+    </style>
+</head>
+<body>
+    <div>
+        <div>Rank</div>
+        <div>Country</div>
+        <div>Population</div>
+        <div>Area</div>
+        <div>Density</div>
+        <div>1</div>
+        <div>Singapore</div>
+        <div>5183700</div>
+        <div>710</div>
+        <div>7301</div>
+        <div>2</div>
+        <div>Hong Kong</div>
+        <div>7601220</div>
+        <div>1104</div>
+        <div>6396</div>
+        <div>3</div>
+        <div>Gaza Strip</div>
+        <div>1816379</div>
+        <div>360</div>
+        <div>5045</div>
+        <div>4</div>
+        <div>Bahrain</div>
+        <div>1234596</div>
+        <div>750</div>
+        <div>1646</div>
+        <div>5</div>
+        <div>Bangladesh</div>
+        <div>152,518,015</div>
+        <div>147,510</div>
+        <div>1034</div>
+        <div>6</div>
+        <div>Taiwan</div>
+        <div>23,361,147</div>
+        <div>36,190</div>
+        <div>646</div>
+        <div>7</div>
+        <div>Mauritius</div>
+        <div>1,288,000</div>
+        <div>2040</div>
+        <div>631</div>
+        <div>8</div>
+        <div>South Korea</div>
+        <div>50,219,669</div>
+        <div>99,538</div>
+        <div>505</div>
+        <div>9</div>
+        <div>Lebanon</div>
+        <div>4,966,000</div>
+        <div>10,452</div>
+        <div>475</div>
+        <div>10</div>
+        <div>Rwanda</div>
+        <div>10,718,379</div>
+        <div>26338</div>
+        <div>627</div>
+        <div></div>
+        <div></div>
+        <div>Total</div>
+        <div>26338</div>
+        <div></div>
+    </div>   
+</body>
+</html>
